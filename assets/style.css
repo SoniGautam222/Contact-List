@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+}
+#heading{
+    margin-left: 40%;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: grey;
+}
+ul li{
+    list-style-type: none;
+}
+#contact{
+    display: flex;
+     /* border: 2px solid black; */
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    background-color: rgb(82, 129, 199);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+#contact:hover{
+    background-color: grey;
+}
+#contact #contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:90%;
+}
+#delete-btn{
+    width:10%;
+    padding:3px;
+    text-align:center;
+    margin-top: 16px;
+    
+}
+#delete-btn a{
+    color: white;
+}
+#first{
+    margin-left: 37%;
+}
+#submit{
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color:  rgb(82, 129, 199);
+    color:white;
+}

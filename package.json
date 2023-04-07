@@ -1,0 +1,17 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "This is a contact list where you can able to add the contact and delete from it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soni Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
